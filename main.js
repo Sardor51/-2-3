@@ -3,7 +3,7 @@ var y = +prompt('Введите второе число');
 var z = +prompt('Введите третье число');
 if(x <= z && x>= y) {
     alert('Среднее число ' + x);
-}else if(x <= z && x>= y) {
+}else if(x <= y && x>= z) {
     alert('Среднее число ' + x)
 }else if(y <= z && y>= x) {
     alert('Среднее число ' + y);
